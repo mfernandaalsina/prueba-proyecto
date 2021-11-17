@@ -1,0 +1,234 @@
+/*Colores Principales*/
+.tiempo, .productos-en-acrilico {
+  display: flex;
+  justify-content: center;
+}
+
+/*Colores Principales*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#Inicio h1 {
+  color: blue;
+  font-size: 60px;
+  text-decoration: underline;
+  padding: 40px 60px 40px 0px;
+  text-align: center;
+}
+#Inicio .cuadros {
+  color: black;
+  font-family: Poppins;
+  padding: 20px 10px 20px 0px;
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+}
+#Inicio h2 {
+  color: red;
+  margin-bottom: 30px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 960px) {
+  .fondo {
+    background-color: lightpink;
+  }
+}
+.section2 .que-es-fibrofacil:active {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.section2 .loco {
+  color: black;
+  font-size: 40px;
+}
+.section2 .tiempo-de-entrega {
+  text-decoration: underline;
+  margin-top: 30px;
+}
+.section2 li {
+  padding-left: 10px;
+}
+.section2 .envio-gratis {
+  color: black;
+  font-size: 2em;
+  padding: 20px 30px 30px 10px;
+}
+
+.flash {
+  color: black;
+  font-family: Poppins;
+  list-style-position: outside;
+  font-size: 2em;
+  border: 3px solid magenta;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*Section 3*/
+/*Flexbox*/
+.section-container {
+  display: flex;
+  width: 900px;
+  justify-content: center;
+}
+
+.empresa-section {
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Footer*/
+#footer ul li {
+  color: black;
+  font-size: 16px;
+  font-style: oblique;
+}
+
+.empresa {
+  list-style-position: inside;
+  list-style-type: square;
+  font-family: nth cursive, Poppins, sans-serif, Condiment, arial, 1;
+  padding: 20px 10px 20px 0px;
+}
+
+.empresa li {
+  display: inline-block;
+  width: 210px;
+  position: relative;
+  font-size: 20px;
+}
+
+.seguinos {
+  border: 3px solid black;
+  background-color: lightskyblue;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.newsletter {
+  margin: 20px 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Colores Principales*/
+.tiempo, .productos-en-acrilico {
+  display: flex;
+  justify-content: center;
+}
+
+.fibro {
+  color: darkblue;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .fibro {
+    color: black;
+  }
+}
+/*Seccion1*/
+.artistica {
+  color: darkslateblue;
+  font-family: "Condiment", cursive;
+  font-size: 60px;
+  background-color: aqua;
+  border-radius: 20px;
+  margin-top: 80px;
+  display: flex;
+}
+
+.productos-en-acrilico {
+  font-size: 60px;
+  font-family: arial;
+  text-decoration: underline;
+  font-style: italic;
+  background-color: #c4c8cc;
+  color: darkblue;
+  margin-top: 50px;
+}
+
+/*Seccion2*/
+/*flexbox*/
+p {
+  color: black;
+  font-size: 1em;
+  font-family: arial;
+  padding: 10px 10px 10px 10px;
+}
+
+/* Transform y transition*/
+.foto1-artistica:hover {
+  transform: scale(2) translateX(100px);
+  transition: all 2s ease;
+}
+
+.foto2-artistica:hover {
+  transform: scale(2);
+  transition: all 1s ease;
+}
+
+.foto-container-artistica {
+  display: flex;
+}
+
+.envio-gratis-container {
+  display: flex;
+  background-color: #b8d8f8;
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+  font-family: cursive;
+}
+
+.envio-gratis-despacho {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+}
+
+.envio-gratis-compras {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.tiempo {
+  text-decoration: underline;
+  font-size: 3em;
+  font-style: italic;
+  font-display: auto;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 451px) and (max-width: 950px) {
+  .tiempo {
+    color: lightseagreen;
+  }
+}
+.foto-flash {
+  flex-wrap: wrap;
+}
+
+/*imagen de fondo footer*/
+.fondo-artistica {
+  background: url(../../images/StockSnap_BO2LNK630N.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

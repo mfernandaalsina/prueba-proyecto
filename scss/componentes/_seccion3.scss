@@ -1,0 +1,16 @@
+/*Section 3*/
+   /*Flexbox*/
+
+  
+
+   .section-container{
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    
+}
+
+.empresa-section{
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import '../base/listas';
+@import '../base/variables';
+@import '../base/extends';
+
+
+
+.fibro {
+    color: $color1;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 450px) {
+    .fibro {
+        color: $color6;
+    }
+}
+
+/*Seccion1*/
+
+.artistica {
+
+    color: darkslateblue;
+    font-family: 'Condiment', cursive;
+    font-size: 60px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-top: 80px;
+    display: flex;
+
+
+}
+
+.productos-en-acrilico {
+    font-size: 60px;
+    font-family: nth($fonts, 5);
+    text-decoration: underline;
+    font-style: italic;
+    background-color: rgb(196, 200, 204);
+    color: $color1;
+    margin-top: 50px;
+    @extend %flex;
+}
+
+/*Seccion2*/
+
+
+/*flexbox*/
+
+p {
+    color: $color6;
+    font-size: 1em;
+    font-family: nth($fonts, 5);
+    padding: 10px 10px 10px 10px;
+
+}
+
+/* Transform y transition*/
+
+.foto1-artistica {
+    &:hover {
+
+        transform: scale(2) translateX(100px);
+        transition: all 2s ease;
+
+
+    }
+}
+
+.foto2-artistica {
+    &:hover {
+        transform: scale(2);
+        transition: all 1s ease;
+    }
+}
+
+.foto-container-artistica {
+    display: flex;
+
+}
+
+.envio-gratis-container {
+    display: flex;
+    background-color: rgb(184, 216, 248);
+    color: $color6;
+    align-items: center;
+    justify-content: space-around;
+    font-family: nth($fonts, 1);
+}
+
+.envio-gratis-despacho {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+}
+
+.envio-gratis-compras {
+    display: flex;
+
+    list-style: none;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+
+.tiempo {
+    text-decoration: underline;
+    font-size: 3em;
+    font-style: italic;
+    font-display: auto;
+    margin-top: 30px
+}
+
+.tiempo {
+
+
+    @extend %flex;
+}
+
+@media screen and (min-width:451px)and (max-width:950px) {
+    .tiempo {
+        color: $color5;
+    }
+}
+
+.foto-flash {
+    flex-wrap: wrap;
+}
+
+/*imagen de fondo footer*/
+
+.fondo-artistica {
+    background: url(../../images/StockSnap_BO2LNK630N.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
