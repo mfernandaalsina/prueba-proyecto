@@ -10,6 +10,20 @@
   padding: 0;
 }
 
+.bg-menu {
+  background-color: #cd9af1;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.hojas {
+  width: 300px;
+  height: auto;
+}
+
 #Inicio h1 {
   color: blue;
   font-size: 60px;
@@ -35,6 +49,10 @@
   .fondo {
     background-color: lightpink;
   }
+}
+.section2 .img-envio {
+  width: 100%;
+  height: auto;
 }
 .section2 .que-es-fibrofacil:active {
   background-color: black;
@@ -86,6 +104,7 @@
   color: black;
   font-size: 16px;
   font-style: oblique;
+  list-style: none;
 }
 
 .empresa {
@@ -162,6 +181,11 @@ p {
   font-size: 1em;
   font-family: arial;
   padding: 10px 10px 10px 10px;
+}
+
+.img-acri52 {
+  width: 200px;
+  height: auto;
 }
 
 /* Transform y transition*/
