@@ -11,6 +11,11 @@
 
 /*Seccion1*/
 
+.h1-prod{
+    color: rgb(86, 202, 164);
+    text-align: center;
+    font-size: 6em ;
+}
 .productos{
     font-size: 3em;
     font-style: italic;
@@ -38,10 +43,12 @@
     /*Seccion2*/
 
     .murales{
-        font-size: 2em;
+        font-size: 4em;
         font-style: italic;
         color: deeppink; 
         text-decoration-line: underline;
+        text-align: center;
+
     
     }
 

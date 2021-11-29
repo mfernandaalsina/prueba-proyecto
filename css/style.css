@@ -281,6 +281,12 @@ p {
 }
 
 /*Seccion1*/
+.h1-prod {
+  color: #56caa4;
+  text-align: center;
+  font-size: 6em;
+}
+
 .productos {
   font-size: 3em;
   font-style: italic;
@@ -305,10 +311,11 @@ p {
 
 /*Seccion2*/
 .murales {
-  font-size: 2em;
+  font-size: 4em;
   font-style: italic;
   color: deeppink;
   text-decoration-line: underline;
+  text-align: center;
 }
 
 .foto2-container {
