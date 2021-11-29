@@ -1,6 +1,7 @@
 
 @import '../base/variables';
 @import '../base/listas';
+@import '../base/extends';
 
 
 
@@ -12,6 +13,7 @@
 .bg-menu{
     background-color: rgb(205, 154, 241);
 }
+
 
 .logo{
     width:150px;
@@ -41,7 +43,7 @@
             }
     
                 h2{
-                    color: $color2;
+                    color: rgb(92, 212, 92);
                     margin-bottom: 30px;
                     margin: 10px
                 }

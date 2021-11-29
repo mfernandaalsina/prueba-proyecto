@@ -5,6 +5,11 @@
 }
 
 /*Colores Principales*/
+.tiempo, .productos-en-acrilico {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +45,7 @@
   display: flex;
 }
 #Inicio h2 {
-  color: red;
+  color: #5cd45c;
   margin-bottom: 30px;
   margin: 10px;
 }
