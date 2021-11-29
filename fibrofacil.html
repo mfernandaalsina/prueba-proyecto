@@ -11,7 +11,7 @@
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
    <!--css-->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style.css"/>
    
    <!--FontsGoogle-->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -83,29 +83,38 @@
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen></iframe>
 
-    <section>
+  <section>
 
-        <h2 class="tiempo-de-entrega">TIEMPO DE ENTREGA Y ENVIOS</h2>
-        <ul class="envio-gratis">
-            <li>Tiempo de despacho entre</li>
-            <li>5 y 7 dias hábiles</li>
-        </ul>
-        <ul class="envio-gratis">
-            <li>Envíos gratis CABA y GBA</li>
-            <li> Para compras mayores a $1</li>
-            <li> Válido para todos los productos</li>
-        </ul>
-        <ul class="flash">
-            <li>Envío Flash!</li>
-            <li>Recibílo Gratis en 24hs</li>
+    <h2 class="tiempo">TIEMPO DE ENTREGA Y ENVIOS</h2>
 
-            
+    <div class="envio-gratis-container">
+    <ul class="envio-gratis-despacho">
+        <li>Tiempo de despacho entre</li>
+        <li>5 y 7 dias hábiles</li>
+    </ul>
+    <ul class="envio-gratis-compras">
+        <li>Envíos gratis CABA y GBA</li>
+        <li> Para compras mayores a $1</li>
+        <li> Válido para todos los productos</li>
+    
+    
+    </ul>
+</div>
+    <div>
+    <ul class="flash">
+        <li>Envío Flash!</li>
+        <li>Recibílo Gratis en 24hs</li>
 
-        </ul>
         
-        <img src="./src/flash-header3.jpg" alt="Envios flash" class="img-envio">
 
-    </section>
+    </ul>
+</div>
+
+<div class="foto-flash">
+    <img src="./src/flash-header3.jpg" alt="Envios flash" class="img-envio">
+</div>
+</section>
+    
     <!--Footer-->
     <footer class="fondo-artistica">
 
@@ -113,13 +122,20 @@
     <ul>
 
         <ul>
-            <li>SEGUINOS EN:</li>
-            <!--aca va el simbolo de facebook-->
-            <li>Facebook</li>
-            <!--aca va simbolo de instagram-->
-            <li>Instagram</li>
-
-        </ul>
+             <li class="seguinos">SEGUINOS EN:</li>
+              <!--aca va el simbolo de facebook-->
+              <li>
+                <img src="images/social-icons.svg" alt="social-icons">
+              </li>
+              
+              
+              <!--aca va simbolo de instagram-->
+              
+            </ul>
+      
+        
+            
+        
         <ul>
             <li>NEWSLETTER</li>
             <!-- la lado de newsletter va el simbolo de whatsapp-->

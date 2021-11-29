@@ -25,7 +25,7 @@
 }
 
 #Inicio h1 {
-  color: blue;
+  color: #5cd45c;
   font-size: 60px;
   text-decoration: underline;
   padding: 40px 60px 40px 0px;
@@ -205,6 +205,142 @@ p {
 
 .envio-gratis-container {
   display: flex;
+  background-color: #5cd45c;
+  color: black;
+  align-items: center;
+  justify-content: space-around;
+  font-family: cursive;
+}
+
+.envio-gratis-despacho {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+}
+
+.envio-gratis-compras {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.tiempo {
+  text-decoration: underline;
+  font-size: 3em;
+  font-style: italic;
+  font-display: auto;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 451px) and (max-width: 950px) {
+  .tiempo {
+    color: lightseagreen;
+  }
+}
+.foto-flash {
+  flex-wrap: wrap;
+}
+
+.seguinos {
+  list-style: none;
+  border: 3px solid black;
+  background-color: lightskyblue;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+/*imagen de fondo footer*/
+.fondo-artistica {
+  background: url(../../images/StockSnap_BO2LNK630N.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Productos.html*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Colores Principales*/
+.productos-en-acrilico, .tiempo {
+  display: flex;
+  justify-content: center;
+}
+
+/*Seccion1*/
+.productos {
+  font-size: 3em;
+  font-style: italic;
+  text-decoration: underline;
+  color: #4be6b2;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.figuras {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: cursive;
+}
+
+.foto-unicornio:hover {
+  transition: all 2s ease;
+  transform: scale(1) translateX(80px);
+  display: flex;
+}
+
+/*Seccion2*/
+.murales {
+  font-size: 2em;
+  font-style: italic;
+  color: deeppink;
+  text-decoration-line: underline;
+}
+
+.foto2-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.tiempo {
+  text-decoration: underline;
+  font-size: 3em;
+  font-style: italic;
+  font-display: auto;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 451px) and (max-width: 950px) {
+  .tiempo {
+    color: lightseagreen;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Colores Principales*/
+.productos-en-acrilico, .tiempo {
+  display: flex;
+  justify-content: center;
+}
+
+.envio-gratis-container {
+  display: flex;
   background-color: #b8d8f8;
   color: black;
   align-items: center;
@@ -242,17 +378,12 @@ p {
   flex-wrap: wrap;
 }
 
-/*imagen de fondo footer*/
-.fondo-artistica {
-  background: url(../../images/StockSnap_BO2LNK630N.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
+.seguinos {
+  list-style: none;
+  border: 3px solid black;
+  background-color: lightskyblue;
+  padding: 20px 0;
+  margin: 20px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

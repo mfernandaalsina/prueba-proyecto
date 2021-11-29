@@ -15,7 +15,10 @@
     font-size: 3em;
     font-style: italic;
     text-decoration: underline;
-    color:azure;
+    color: rgb(75, 230, 178);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
     }
 
     .figuras{
@@ -28,6 +31,7 @@
          &:hover{
         transition: all 2s ease;
         transform: scale(1) translateX(80px);
+        display: flex;
     }
 }
 
@@ -48,4 +52,25 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
     margin-top: 30px;
+    display: flex;
+    }
+
+    .tiempo {
+        text-decoration: underline;
+        font-size: 3em;
+        font-style: italic;
+        font-display: auto;
+        margin-top: 30px
+    }
+    
+    .tiempo {
+    
+    
+        @extend %flex;
+    }
+    
+    @media screen and (min-width:451px)and (max-width:950px) {
+        .tiempo {
+            color: $color5;
+        }
     }
