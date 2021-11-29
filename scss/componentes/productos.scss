@@ -1,0 +1,51 @@
+/*Productos.html*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import '../base/listas';
+@import '../base/variables';
+@import '../base/extends';
+
+/*Seccion1*/
+
+.productos{
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline;
+    color:azure;
+    }
+
+    .figuras{
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-family: cursive;
+    }
+
+    .foto-unicornio{
+         &:hover{
+        transition: all 2s ease;
+        transform: scale(1) translateX(80px);
+    }
+}
+
+    /*Seccion2*/
+
+    .murales{
+        font-size: 2em;
+        font-style: italic;
+        color: deeppink; 
+        text-decoration-line: underline;
+    
+    }
+
+
+    .foto2-container{
+    display: grid;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    }
